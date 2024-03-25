@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ch 8 practice set</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .progress{
+            background-color: red;
+            height: 5px;
+            animation: load 1s ease-in-out 1 ;
+        }
+        header{
+            background-color: black;
+            color: white;
+            height: 8vh;
+            position: sticky;
+            top: 0px;
+            display: flex;
+            align-items: center;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+        }
+        li{
+            display: flex;
+            padding: 0px 15px;
+        }
+        main{
+            background-color: rgb(14, 155, 28);
+            color: white;
+            height: 150vh;
+            width: 100vw;
+        }
+        .main{
+            font-size: 20px;
+            text-align: center;
+        }
+        .down {
+            color: rgb(221, 255, 0);
+            font-size: xx-large;
+            width: 100vw;
+            padding: 50px 0px;
+            text-align: center;
+            animation: down 1.5s ease-in-out infinite alternate;
+        }
+        footer{
+            background-color: white;
+            color: black;
+            height: 7vh;
+            font-size: larger;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        @keyframes load {
+            0%{
+                width: 0px; 
+            }
+            50%{
+                width: 50vw;
+            }
+            100%{
+                width: 100vw;
+            }
+        }
+
+        @keyframes down {
+            from{
+                width: 50vw;
+            }
+            to{
+                width: 100vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="progress"></div>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Contact Us</li>
+                <li>About</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="main">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat reprehenderit commodi, enim consequuntur minus quas consectetur dolore ex distinctio. Delectus eum accusamus magni officia ab dolore! Quasi similique assumenda ullam soluta cum eos, doloribus, temporibus nobis commodi quae ex. Dolores quasi neque placeat nihil repellendus, temporibus id doloribus officia officiis unde laborum assumenda illum nesciunt laudantium, incidunt sunt blanditiis odit ut exercitationem cumque ad distinctio sint? Magnam corporis aut similique totam deleniti facilis odit explicabo laborum libero nihil, molestias vel provident! Dolore pariatur recusandae aliquam minus quidem. Doloribus aut et quibusdam perferendis dignissimos aliquam autem pariatur. Vel atque quos eveniet quia at assumenda beatae accusamus sunt. Molestias explicabo magni, excepturi eligendi repudiandae rerum possimus perspiciatis porro dolores vero dicta quam facilis dignissimos unde provident natus cum necessitatibus iure culpa minus nostrum qui praesentium vel totam. Beatae voluptatem reprehenderit consequuntur voluptatibus repellendus repudiandae quia nihil veniam amet minima rerum fugiat, cupiditate architecto magnam temporibus doloribus molestiae doloremque consectetur quas tenetur omnis fugit tempora voluptates exercitationem. Est quod corrupti cumque suscipit veritatis error harum vel, sequi assumenda laborum quibusdam nihil obcaecati eius repellendus aperiam minus temporibus, ad, aliquid fugit maiores quisquam iusto? Dolorum doloremque ad distinctio in architecto a officiis illo nostrum.</div>
+        <div class="down">
+            <b>SCROLL DOWN &darr;</b>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            MAYUR's &copy; copyright 
+        </div>
+    </footer>
+    
+</body>
+</html>

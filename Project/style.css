@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+:root {
+    --main-bg-color: #2a55e5;
+}
+
+/* use to give background color in all styles where ever it is used */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 25px;
+    padding-left: 15px;
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0px 12px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+    /* font-size: x-large; */
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 25vw;
+    height: 25px;
+    border-radius: 2px;
+    margin: 0px 16px 0px 56px;
+    padding: 0px 10px;
+}
+
+.container {
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+.slider {
+    margin: 12px auto;
+    width: 79vw;
+    overflow: hidden;
+}
+
+.card {
+    /* background-color: #2a55e5; */
+    margin: auto;
+    max-width: 94vw;
+}
+.card h2{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.all-cards{
+    display: flex;
+    /* justify-content: center; */
+    overflow: hidden;
+    /* overflow: scroll; */
+}
+.card-items{
+    display: inline-flex;
+    /* difference in both */
+    /* display: flex; */
+    flex-direction: column;
+    width: 10vw;
+    /* justify-content: center; */
+    margin: 0px 10px;
+}
+
+footer {
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 12vh;
+    font-family: 'Baloo Bhai 2', cursive;
+}

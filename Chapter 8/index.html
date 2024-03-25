@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: red;
+            height: 455px;
+        }
+
+        .box {
+            border: 2px solid black;
+
+            /* transform: translate(34px ,15px) rotate(0.1turn); */
+            /* rotate(90deg); */
+            /* translate is use to changing the height, width */
+            /* rotate is use for rotating the content */
+
+            /* transform-origin: left; */
+            /* use to set the origin */
+
+            /* transform: scale(2, 4); */
+            /* transform: scaleX(8); */
+            /* transform: scaleY(8); */
+            /* use to change the scale */
+
+            /* transform: skew(4deg, 4deg); */
+
+            /* matrix in pdf */
+            /* it is type of shorthand property */
+
+            /* transform: rotateX(60deg); */
+            /* transform: rotateY(60deg); */
+            /* transform: rotateZ(60deg); */
+            /* use for rotating along X,Y,Z axis */
+        }
+
+        img:hover {
+            width: 56px;
+            height: 56px;
+             
+        }
+        img{
+            width: 255px;
+            height: 255px;
+            /* transition-property: width; */
+            /* transition-duration: 3s; */
+            /* transition-timing-function: ease-in; */
+            /* transition-delay: 0.5s; */
+            transition: height 3s ease-in 0.5s, width 3s ease-in 2s;
+            /* transition: width/height duration timingFunction delay; */
+            /* shorthand property */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="container">
+        <div class="box">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore quis vitae odit corporis
+            excepturi quia quibusdam suscipit quos laboriosam eaque, laborum maiores debitis nostrum. Quae ipsam
+            provident dolorem laborum voluptas.</div>
+    </div> -->
+    <div class="container">
+        <img src="https://source.unsplash.com/random/200x200" alt="random">
+    </div>
+</body>
+
+</html>

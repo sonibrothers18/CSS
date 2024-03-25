@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <style>
+        .container {
+            display: grid;
+            height: 50vh;
+            background-color: yellow;
+            grid-row-gap: 9px;
+            grid-column-gap: 9px;
+            /* 'grid-gap' is the shorthand property of these */
+
+            grid-template-columns: 30px 15px 50px;
+            /* grid-template-columns: auto auto auto; */
+            /* It is use to define width and no of column */
+            grid-template-rows: 40px 60px;
+
+            justify-content: center;
+            align-content: center;
+        }
+
+        .item {
+            background-color: aquamarine;
+            border: 2px solid red;
+        }
+
+        /* MORE PROPERTIES OF GRID IN ITEMS */
+        /* grid-column */
+        /* grid-row */
+        /* span in 2 point of pdf */
+    </style> 
+</head>
+
+<body>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+.flex-all-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    background-color: var(--main-bg-color);
+    color: white;
+    border: 2px solid white;
+    border-radius: 7x;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.my-2{
+    margin: 26px 0px;
+}
+.text-center{
+    text-align: center;
+}
